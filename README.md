@@ -35,6 +35,12 @@ Swap the import in your models:
 
 That is it. Your models, views, and business logic stay exactly the same.
 
+See the [Backend setup guide](https://pookie-storage.readthedocs.io/en/latest/backends/) for full examples including Cloudflare R2 and AWS S3 configuration.
+
+## Documentation
+
+Full documentation is available at https://pookie-storage.readthedocs.io
+
 ## License
 
 MIT
