@@ -1,6 +1,8 @@
 site_name: pookieStorage
 site_description: A Django storage field that works everywhere. One import. Any backend. Zero plumbing.
 docs_dir: docs
+repo_url: https://github.com/GracePeterMutiibwa/pookie-storage
+repo_name: GracePeterMutiibwa/pookie-storage
 theme:
   name: material
   palette:
