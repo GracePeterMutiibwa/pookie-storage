@@ -1,0 +1,17 @@
+site_name: pookieStorage
+site_description: A Django storage field that works everywhere. One import. Any backend. Zero plumbing.
+docs_dir: docs
+theme:
+  name: material
+  palette:
+    scheme: default
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Configuration: configuration.md
+  - Setting Up Backends: backends.md
+  - The Field: field.md
+  - API Reference: api-reference.md
+  - Edge Cases: edge-cases.md
+  - Errors: errors.md
+  - Deployment: deployment.md

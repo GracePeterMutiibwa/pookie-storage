@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# Author: Grace Peter Mutiibwa
+
+[project]
+name = "pookie-storage"
+version = "0.1.0"
+description = "A Django storage field that works everywhere. One import. Any backend. Zero plumbing."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Grace Peter Mutiibwa" }]
+requires-python = ">=3.10"
+keywords = ["django", "storage", "filefield", "r2", "s3", "cloudflare", "file upload"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Framework :: Django",
+    "Framework :: Django :: 3.2",
+    "Framework :: Django :: 4.0",
+    "Framework :: Django :: 4.1",
+    "Framework :: Django :: 4.2",
+    "Framework :: Django :: 5.0",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP",
+]
+dependencies = [
+    "Django>=3.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "pytest-django",
+    "pytest-cov",
+    "black",
+    "ruff",
+]
+
+[project.urls]
+Homepage      = "https://github.com/GracePeterMutiibwa/pookieStorage"
+Repository    = "https://github.com/GracePeterMutiibwa/pookieStorage"
+
+[tool.setuptools.packages.find]
+where   = ["."]
+include = ["pookieStorage*"]
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
