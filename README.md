@@ -2,6 +2,7 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Documentation Status](https://readthedocs.org/projects/pookie-storage/badge/?version=latest)](https://pookie-storage.readthedocs.io/en/latest/?badge=latest)
 [![PyPI version](https://img.shields.io/pypi/v/pookie-storage.svg)](https://pypi.org/project/pookie-storage/)
 
 A Django storage field that works everywhere. One import. Any backend. Zero plumbing.
